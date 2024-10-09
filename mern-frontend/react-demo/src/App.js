@@ -64,7 +64,7 @@ export default App;
 */
 // src/App.js
 
-import React, { useState } from 'react';
+/*mport React, { useState } from 'react';
 import TransactionsTable from './components/TransactionsTable';
 import TransactionStatistics from './components/TransactionStatistics';
 import BarChart from './components/barChart';
@@ -103,5 +103,37 @@ const App = () => {
     </div>
   );
 };
+
+export default App;
+*/
+import "./App.css";
+import Dashboard from "./components/dashboard";
+import CategoryChart
+ from "./components/CategoryChart";
+ import { StatsChart } from "./components/StatsChart";
+ import TransactionsStatistics from "./components/TransactionsStatistics";
+
+// function App() {
+//   return <dashboard />;
+//   return <CategoryChart />;
+//   return 
+// }
+function App() {
+  return (
+    <div className="App">
+      {/* Rendering the Dashboard component */}
+      <Dashboard />
+
+      {/* Rendering the CategoryChart component */}
+      <CategoryChart />
+
+      {/* Rendering the StatsChart component */}
+      <StatsChart />
+
+      {/* Rendering the TransactionsStatistics component */}
+      <TransactionsStatistics />
+    </div>
+  );
+}
 
 export default App;

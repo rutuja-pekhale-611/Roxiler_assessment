@@ -1,4 +1,4 @@
-/*.App {
+.App {
   text-align: center;
 }
 
@@ -36,8 +36,7 @@
     transform: rotate(360deg);
   }
 }
-*/
-/* App.css */
+/* App.css 
 table {
   width: 100%;
   border-collapse: collapse;
@@ -59,3 +58,4 @@ button {
   margin: 5px;
   padding: 5px 10px;
 }
+*/
